@@ -1,0 +1,65 @@
+/*****************************************************TAG SELECTORS******************************************************************************/
+body {
+  position: relative;
+  text-align: center;
+  background-color: #19a1ad;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-position: top -500px left -200px, top 300px right -200px;
+  background-repeat: no-repeat;
+  font-family: 'Nunito', sans-serif;
+}
+/*****************************************************CLASS SELECTORS******************************************************************************/
+
+.profile-card {
+  margin-top: 200px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-size: 300px 120px;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+
+.image-victor {
+  padding: 5px;
+  background-color: white;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: #c1c1c1;
+}
+
+.stats {
+  display: flex;
+  line-height: 0.5;
+  margin-top: 0;
+}
+
+.div1 {
+  flex: 1;
+}
+.div2 {
+  flex: 1;
+}
+.div3 {
+  flex: 1;
+}
+
+.stat {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.stat-name {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
